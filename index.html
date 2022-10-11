@@ -17,7 +17,7 @@
     class="bg-bkg text-white selection:bg-accent selection:text-bkg overflow-hidden"
   >
     <div
-      class="h-screen pb-12 sm:pb-0 overflow-y-auto overflow-x-hidden scroll-smooth perspective relative"
+      class="h-screen pb-12 sm:pb-0 overflow-y-auto overflow-x-hidden relative scroll-smooth perspective"
     >
       <nav
         class="grid place-items-center w-full z-50 drop-shadow-text-sm absolute"
@@ -424,7 +424,7 @@
             class="flex transition-transform duration-500"
             data-slideContainer
           >
-            <div
+            <!-- <div
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
@@ -439,19 +439,22 @@
               >
                 Areola Borealis
               </p>
-            </div>
+            </div> -->
             <div
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img1.jpg"
-                alt="church"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img1.jpg"
+                  alt="church"
+                />
+              </div>
+
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Beautiful church
               </p>
@@ -460,30 +463,34 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img2.jpg"
-                alt="mountain"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto h-full w-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img2.jpg"
+                  alt="mountain"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Miraculous mountain
               </p>
             </div>
             <div
-              class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              class="relative aspect-auto w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img3.jpg"
-                alt="lake"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img3.jpg"
+                  alt="lake"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Lake of wonders
               </p>
@@ -492,14 +499,16 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img4.jpg"
-                alt="waterfall"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img4.jpg"
+                  alt="waterfall"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Waterfall
               </p>
@@ -508,14 +517,16 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img5.jpg"
-                alt="Chinese wall"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img5.jpg"
+                  alt="Chinese wall"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Chinese wall
               </p>
@@ -524,14 +535,16 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img6.jpg"
-                alt="pyramids"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img6.jpg"
+                  alt="pyramids"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Mysterious pyramids
               </p>
@@ -540,14 +553,16 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img7.jpg"
-                alt="City of wonders"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img7.jpg"
+                  alt="City of wonders"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 City of wonders
               </p>
@@ -556,14 +571,16 @@
               class="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96"
               data-slide
             >
-              <img
-                loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
-                src="./images/img8.jpg"
-                alt="Night"
-              />
+              <div class="h-4/5 w-full">
+                <img
+                  loading="lazy"
+                  class="object-cover aspect-auto w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                  src="./images/img8.jpg"
+                  alt="Night"
+                />
+              </div>
               <p
-                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+                class="absolute bottom-44 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Mysterious night
               </p>
@@ -604,9 +621,9 @@
         </section>
         <section
           aria-labelledby="top places gallery"
-          class="container grid gap-5 fade-up"
+          class="container grid gap-5"
         >
-          <div class="text-center max-w-prose mx-auto grid gap-4">
+          <div class="text-center max-w-prose mx-auto grid gap-4 fade-up">
             <div>
               <small
                 class="tracking-widest text-accent uppercase drop-shadow-text-sm"
@@ -625,24 +642,25 @@
             </p>
           </div>
           <div
-            class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 grid-flow-dense lg:grid-rows-2 max-w-7xl mx-auto gap-4"
+            class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12 grid-flow-dense max-w-7xl mx-auto gap-4 fade-up"
           >
             <div
-              class="relative lg:col-span-2 lg:row-span-2 xs:w-auto xs:basis-96"
+              class="relative lg:col-span-4 lg:row-span-2 xs:w-auto xs:basis-96"
             >
               <img
                 loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
+                class="object-cover h-full w-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
                 src="./images/destination2.jpg"
                 alt="destination2"
               />
+
               <p
                 class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 China
               </p>
             </div>
-            <div class="relative w-full lg:col-span-2 xs:w-auto xs:basis-96">
+            <div class="relative w-full lg:col-span-3 xs:w-auto xs:basis-96">
               <img
                 loading="lazy"
                 class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
@@ -655,26 +673,30 @@
                 Norway
               </p>
             </div>
-            <div class="relative w-full xs:w-auto xs:basis-96">
+            <div class="relative w-full lg:col-span-2 xs:w-auto xs:basis-96">
               <img
                 loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
+                class="object-cover w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
                 src="./images/destination1.jpg"
                 alt="Turkish"
               />
+
               <p
                 class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
                 Turkish
               </p>
             </div>
-            <div class="relative w-full xs:w-auto xs:basis-96 lg:col-span-2">
+            <div
+              class="relative w-full xs:w-auto xs:basis-96 lg:col-span-3 lg:row-span-2"
+            >
               <img
                 loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
+                class="object-cover w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
                 src="./images/destination4.jpg"
                 alt="Germany"
               />
+
               <p
                 class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
@@ -684,10 +706,11 @@
             <div class="relative w-full lg:col-span-5 xs:w-auto xs:basis-96">
               <img
                 loading="lazy"
-                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
+                class="object-cover w-full h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer rounded-3xl"
                 src="./images/destination5.jpg"
                 alt="Arab Emirates"
               />
+
               <p
                 class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
               >
@@ -764,9 +787,9 @@
         </section>
         <section
           aria-labelledby="happy traveler"
-          class="container grid gap-10 max-w-7xl mx-auto fade-up"
+          class="container grid gap-10 max-w-7xl mx-auto"
         >
-          <div class="text-center">
+          <div class="text-center fade-up">
             <div>
               <small class="tracking-widest text-accent uppercase"
                 >Hear what others think!</small
@@ -781,13 +804,15 @@
             </p>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center fade-up"
+          >
             <div
               class="flex justify-center sm:justify-between items-center space-x-6 flex-wrap sm:flex-nowrap"
             >
               <img
                 src="./images/person1.jpg"
-                class="w-52 rounded-full object-cover object-center"
+                class="w-32 rounded-full object-cover object-center"
                 alt="person1"
                 loading="lazy"
               />
@@ -805,7 +830,7 @@
             >
               <img
                 src="./images/person2.jpg"
-                class="w-52 rounded-full object-cover object-center"
+                class="w-32 rounded-full object-cover object-center"
                 alt="person2"
                 loading="lazy"
               />
@@ -823,7 +848,7 @@
             >
               <img
                 src="./images/person3.jpg"
-                class="w-52 rounded-full object-cover object-center"
+                class="w-32 rounded-full object-cover object-center"
                 alt="person3"
                 loading="lazy"
               />
@@ -841,7 +866,7 @@
             >
               <img
                 src="./images/person4.jpg"
-                class="w-52 rounded-full object-cover object-center"
+                class="w-32 rounded-full object-cover object-center"
                 alt="person4"
                 loading="lazy"
               />
